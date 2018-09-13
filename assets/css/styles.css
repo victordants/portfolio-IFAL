@@ -1,0 +1,104 @@
+body { 
+    background: url(../img/back.jpeg) no-repeat center center fixed; 
+  }
+ul {
+    list-style-type: none;
+}
+
+.imgperfil {
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+.imgperfil img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+.font {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+
+}
+.namesize {
+    font-size: 2.5em;
+}
+
+.alignment {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 2%;
+  }
+
+#BarraHTML {
+    margin-top: 5%;
+}
+.inline {
+    display: flex;
+    align-items: center;
+    align-items: baseline;
+    text-align: center;
+}
+.space {
+    margin-left: 5%;
+    width: 33%;
+}
+.spacezap {
+    margin-left: 5%;
+    width: 50%;
+}
+
+#profile {
+}
+#main {
+    margin-left: 5%;
+    width: 33%;
+
+}
+#contact {
+    width: 33%;
+}
+
+.flexmid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flexend {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+}
+.spacedown {
+    padding-bottom: 10%;
+}
+.spacedowncontact {
+    padding-bottom: 17%;
+}
+
+a:hover, #webbig:hover{
+    font-size: 150%;
+}
+
+#footer {
+    width:100%;
+    padding:20px;
+    background:rgba(0, 0, 0, .25);
+    bottom: 0;
+    position: fixed;
